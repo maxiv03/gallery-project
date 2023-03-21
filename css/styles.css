@@ -24,7 +24,7 @@ body{
 
 #logo{
     font-family: Verdana, Arial;
-    font-size: min(50vw, 25px);
+    font-size: min(20vw, 25px);
     letter-spacing: 4px;
     line-height: 330%;
     background: darkolivegreen;
