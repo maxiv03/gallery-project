@@ -24,13 +24,13 @@ body{
 
 #logo{
     font-family: Verdana, Arial;
-    font-size: 150%;
+    font-size: min(50vw, 25px);
     letter-spacing: 4px;
     line-height: 330%;
     background: darkolivegreen;
     color :white;
     text-align: center;
-    width: 45%;
+    width: min(50vw, 385px);
     height: auto;
     margin-bottom: 20px;
     float: left;
