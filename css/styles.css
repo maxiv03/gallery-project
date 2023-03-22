@@ -83,7 +83,7 @@ body{
 
 .button-more{
     font-size: min(2vw, 17px);
-    width: min(10vw, 75px);
+    width: min(12vw, 90px);
     padding: 1%;
     text-align: center;
     display: block;
@@ -114,8 +114,7 @@ body{
 #sidebar h4 span{
     font-size: min(2vw, 15px);
     background: white;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 3%;
 }
 
 #sidebar img{
