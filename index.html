@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web project</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-
+    <title>Gallery project</title>
+    
     <!-- jQuery -->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!-- Slider -->
@@ -17,20 +15,23 @@
 
     <!-- My scripts -->
     <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- My styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 </head>
 <body>
     <section id="global">
         <!-- Header -->
         <header>
             <div id="logo">
-                <h1>Web project</h1>
+                <h1>Gallery project</h1>
             </div>
             <div class="clearfix">
             </div>
             <nav id="menu">
                 <ul>
                     <li><a href="#">Index</a></li>
-                    <li><a href="#">Clock</a></li>
+                    <li><a href="#">Gallery</a></li>
                     <li><a href="#">About me</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -39,20 +40,16 @@
 
         <!-- Content -->
         <section id="content">
-            <div id="posts">
-                <article class="post">
-                    <h2>Article title</h2>
-                    <span class="date">Publication date</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel nisi iaculis, varius est nec, porttitor est. Aliquam volutpat tellus a libero vulputate gravida. Donec at metus bibendum ligula egestas gravida. Donec eget ipsum nisl. Morbi viverra accumsan felis, nec ultricies ipsum mollis et. Suspendisse condimentum vitae urna sed ultricies. Vivamus at dui eu augue blandit ullamcorper vel ac lorem. Pellentesque quis tortor eu arcu blandit egestas. Mauris et lacus ac sapien eleifend ultricies et id odio. Maecenas ac orci nec urna gravida iaculis. Maecenas nec neque malesuada ex condimentum aliquam bibendum in enim. Sed eget tempor metus. Sed sollicitudin blandit nunc vel lobortis.</p>
-                    <a href="#" class="button-more">Read more</a>
-                </article>
-                <article class="post">
-                    <h2>Article title</h2>
-                    <span class="date">Publication date</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel nisi iaculis, varius est nec, porttitor est. Aliquam volutpat tellus a libero vulputate gravida. Donec at metus bibendum ligula egestas gravida. Donec eget ipsum nisl. Morbi viverra accumsan felis, nec ultricies ipsum mollis et. Suspendisse condimentum vitae urna sed ultricies. Vivamus at dui eu augue blandit ullamcorper vel ac lorem. Pellentesque quis tortor eu arcu blandit egestas. Mauris et lacus ac sapien eleifend ultricies et id odio. Maecenas ac orci nec urna gravida iaculis. Maecenas nec neque malesuada ex condimentum aliquam bibendum in enim. Sed eget tempor metus. Sed sollicitudin blandit nunc vel lobortis.</p>
-                    <a href="#" class="button-more">Read more</a>
-                </article>
+            <!-- Slider -->
+            <div class="slider">
+                <div class="bxslider">
+                    <div><img src="img/bebiyo glitch 1.jfif" title="Bebiyo glitch 1" /></div>
+                    <div><img src="img/puesta de sol glitch 2.jfif" title="Puesta de sol glitch 2" /></div>
+                    <div><img src="img/puesta de sol glitch 1.jfif" title="Puesta de sol glitch 1" /></div>
+                </div>
+                <a href="#" class="button-more">View more</a>
             </div>
+
             <aside id="sidebar">
                 <div id="about">
                     <h4><span>Who am I?</span></h4>
@@ -62,16 +59,10 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel nisi iaculis, varius est nec, porttitor est.</p>
                     <h4><span>Glitch artist</span></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel nisi iaculis, varius est nec, porttitor est.</p>
-                    <!-- Slider -->
-                    <div class="bxslider">
-                        <div><img src="img/bebiyo glitch 1.jfif" title="Bebiyo glitch 1" /></div>
-                        <div><img src="img/puesta de sol glitch 2.jfif" title="Pasillo Rxssi" /></div>
-                        <div><img src="img/puesta de sol glitch 1.jfif" title="Puesta de sol glitch 1" /></div>
-                    </div>
                 </div>
             </aside>
-            <div class="clearfix">
-            </div>
+            
+            <div class="clearfix"></div>
         </section>
     </section>
 

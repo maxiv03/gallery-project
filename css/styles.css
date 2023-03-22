@@ -16,24 +16,25 @@ body{
 #global{
     width: 65%;
     margin: 0px auto;
-    margin-top: 30px;
-    padding: 25px;
+    margin-top: 5%;
+    padding: 5%;
     background: white;
     box-shadow: 0px 0px 50px gray;
 }
 
 #logo{
     font-family: Verdana, Arial;
-    font-size: min(20vw, 25px);
+    font-size: min(3vw, 25px);
     letter-spacing: 4px;
     line-height: 330%;
     background: darkolivegreen;
     color :white;
     text-align: center;
-    width: min(50vw, 385px);
+    width: min(65vw, 500px);
     height: auto;
-    margin-bottom: 20px;
-    float: left;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase
 }
 
@@ -42,16 +43,16 @@ body{
     background: #333;
     width: 100%;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
 }
 
 #menu ul{
-    line-height: 46px;
+    line-height: min(5vw, 46px);
     list-style: none;
 }
 
 #menu ul li{
-    height: 46px;
+    height: min(5vw, 46px);
     display: inline-block;
     transition: all 300ms;
 }
@@ -61,82 +62,71 @@ body{
 }
 
 #menu a{
+    text-align: center;
+    font-size: min(4vw, 20px);
     display: block;
     color: white;
     text-decoration: none;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: min(4vw, 50px);
+    padding-right: min(4vw, 50px);
 }
 
-#posts{
-    width: 60%;
-    float: left;
-    font-family: Helvetica, Arial;
+.slider{
+    float:left;
+    width: 65%;
 }
 
-.post{
-    padding: 7px;
-}
-
-.post h2{
-    font-size: 30px;
-    color: #333;
-}
-
-.post .date{
-    display: block;
-    color: gray;
-    margin-top: 5px;
-}
-
-.post p{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 22px;
-    text-align: justify;
+.bx-wrapper{
+    margin-bottom: 0px;
 }
 
 .button-more{
-    font-size: 14px;
+    font-size: min(2vw, 17px);
+    width: min(10vw, 75px);
+    padding: 1%;
     text-align: center;
     display: block;
-    padding: 10px;
+    text-decoration: none;
     background: darkolivegreen;
     color: white;
-    text-decoration: none;
-    margin-top: 10px;
-    width: 70px;
     margin-bottom: 20px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #sidebar{
     font-family: Helvetica, Arial;
-    width: 35%;
+    width: 30%;
     float: right;
 }
 
 #sidebar h4{
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
-    line-height: 10px;
+    line-height: min(2vw, 15px);
     color: #333;
     background: url("../img/glitch-bar.png") repeat-x;
 }
 
 #sidebar h4 span{
+    font-size: min(2vw, 15px);
     background: white;
-    padding: 2px;
+    padding: 3%;
 }
 
 #sidebar img{
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 #sidebar p{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: min(2vw, 15px);
     text-align: justify;
 }
 
@@ -144,12 +134,12 @@ footer{
     text-align: center;
     font-family: Helvetica, Arial;
     color: white;
-    height: 47px;
+    height: min(4vw, 47px);
     background: rgba(51, 51, 51, 0.70);
     margin: 0px auto;
     width: 65%;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 50px;
-    line-height: 47px;
+    margin-top: 3%;
+    line-height: min(4vw, 47px);
 }
