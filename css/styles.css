@@ -48,7 +48,7 @@ body{
 }
 
 #menu ul{
-    line-height: min(4vw, 46px);
+    line-height: min(5vw, 46px);
     list-style: none;
 }
 
@@ -83,7 +83,7 @@ body{
 
 .button-more{
     font-size: min(2vw, 17px);
-    width: min(12vw, 90px);
+    width: min(13vw, 100px);
     padding: 1%;
     text-align: center;
     display: block;
@@ -114,7 +114,7 @@ body{
 #sidebar h4 span{
     font-size: min(2vw, 15px);
     background: white;
-    padding: 3%;
+    padding: 5% 2% 5% 2%;
 }
 
 #sidebar img{
