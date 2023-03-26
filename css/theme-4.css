@@ -1,0 +1,17 @@
+body{
+    background: url("../img/background-4.png");
+    background-attachment: fixed;
+    height: auto;
+}
+
+#logo{
+    background:darkolivegreen;
+}
+
+#menu ul li:hover{
+    background: darkolivegreen;
+}
+
+.button-more{
+    background: darkolivegreen;
+}

@@ -8,12 +8,6 @@
     clear: both;
 }
 
-body{
-    background: url("../img/background.png");
-    background-attachment: fixed;
-    height: auto;
-}
-
 #global{
     width: 65%;
     margin: 0px auto;
@@ -28,7 +22,6 @@ body{
     font-size: min(3vw, 25px);
     letter-spacing: 4px;
     line-height: 330%;
-    background: darkolivegreen;
     color :white;
     text-align: center;
     width: min(65vw, 500px);
@@ -58,10 +51,6 @@ body{
     transition: all 300ms;
 }
 
-#menu ul li:hover{
-    background: darkolivegreen;
-}
-
 #menu a{
     text-align: center;
     font-size: min(2vw, 20px);
@@ -88,7 +77,6 @@ body{
     text-align: center;
     display: block;
     text-decoration: none;
-    background: darkolivegreen;
     color: white;
     margin-bottom: 20px;
     margin-top: 2%;
@@ -143,4 +131,42 @@ footer{
     padding-right: 20px;
     margin-top: 3%;
     line-height: min(4vw, 47px);
+}
+
+#theme-selector{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.70);
+    width: min(10vw, 75px);
+    height: min(26vw, 150px);
+}
+
+#to-theme-1,
+#to-theme-2,
+#to-theme-3,
+#to-theme-4{
+    width: min(4vw, 25px);
+    height: min(4vw, 25px);
+    border: min(1vw, 1px) solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: min(1vw, 7px);
+    margin-bottom: min(1vw, 7px);
+    cursor: pointer;
+}
+
+#to-theme-1{
+    background: black;
+}
+
+#to-theme-2{
+    background: brown;
+}
+
+#to-theme-3{
+    background: blueviolet;
+}
+
+#to-theme-4{
+    background: darkolivegreen;
 }

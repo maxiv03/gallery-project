@@ -1,0 +1,17 @@
+body{
+    background: url("../img/background-2.png");
+    background-attachment: fixed;
+    height: auto;
+}
+
+#logo{
+    background:brown;
+}
+
+#menu ul li:hover{
+    background: brown;
+}
+
+.button-more{
+    background: brown;
+}
