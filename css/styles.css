@@ -141,10 +141,7 @@ footer{
     height: min(26vw, 150px);
 }
 
-#to-theme-1,
-#to-theme-2,
-#to-theme-3,
-#to-theme-4{
+#to-theme-1,#to-theme-2,#to-theme-3,#to-theme-4{
     width: min(4vw, 25px);
     height: min(4vw, 25px);
     border: min(1vw, 1px) solid white;
@@ -169,4 +166,11 @@ footer{
 
 #to-theme-4{
     background: darkolivegreen;
+}
+
+.to-start{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
 }
