@@ -22,7 +22,7 @@ $(document).ready(function(){
     $('html, body').fadeOut(500, function(){
       theme.attr("href", "css/theme-1.css");
     });
-    $('html, body').fadeIn();
+    $('html, body').fadeIn(500);
 
     localStorage.setItem("actual-theme", "theme-1");
   });
@@ -32,7 +32,7 @@ $(document).ready(function(){
     $('html, body').fadeOut(500, function(){
       theme.attr("href", "css/theme-2.css");
     });
-    $('html, body').fadeIn();
+    $('html, body').fadeIn(500);
 
     localStorage.setItem("actual-theme", "theme-2");
   });
@@ -42,7 +42,7 @@ $(document).ready(function(){
     $('html, body').fadeOut(500, function(){
       theme.attr("href", "css/theme-3.css");
     });
-    $('html, body').fadeIn();
+    $('html, body').fadeIn(500);
 
     localStorage.setItem("actual-theme", "theme-3");
   });
@@ -52,7 +52,7 @@ $(document).ready(function(){
     $('html, body').fadeOut(500, function(){
       theme.attr("href", "css/theme-4.css");
     });
-    $('html, body').fadeIn();
+    $('html, body').fadeIn(500);
 
     localStorage.setItem("actual-theme", "theme-4");
   });

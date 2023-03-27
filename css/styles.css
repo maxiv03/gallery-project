@@ -120,6 +120,7 @@
 }
 
 footer{
+    font-size: min(3vw, 15px);
     text-align: center;
     font-family: Helvetica, Arial;
     color: white;
